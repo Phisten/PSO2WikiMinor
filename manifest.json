@@ -1,0 +1,32 @@
+ {
+    "name": "PSO2 swiki 鏡像站導向",
+    "version": "1.0",
+    "description": "auto transfer to minor site",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://pso2.swiki.jp/",
+        "activeTab",
+        "storage"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+      },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "icon.png",
+          "32": "icon.png",
+          "48": "icon.png",
+          "128": "icon.png"
+        }
+    },
+    "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+    },
+    "manifest_version": 2
+  }
